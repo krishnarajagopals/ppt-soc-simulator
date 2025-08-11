@@ -35,7 +35,7 @@ function App() {
   const [ambient, setAmbient] = useState(25);
   const [thermalLimit, setThermalLimit] = useState(42);
   const [overheatGrace, setOverheatGrace] = useState(5);    // min 1 s enforced below
-  const [batteryWh, setBatteryWh] = useState(0.75);
+  const [batteryWh, setBatteryWh] = useState(0.3);
   const [workloadGI, setWorkloadGI] = useState(1000);
 
   const [speed, setSpeed] = useState(75);
