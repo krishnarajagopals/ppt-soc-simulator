@@ -41,7 +41,10 @@ function App() {
   const [speed, setSpeed] = useState(20);
   const [playing, setPlaying] = useState(false);
 
-  const [Rth, setRth] = useState(8.0);       // °C/W
+  
+  //const [Rth, setRth] = useState(8.0);       // °C/W
+  const Rth = 8.0; // °C/W
+
   const [tauSec, setTauSec] = useState(60);  // s (Cth = tau/Rth)
 
   // --- Fixed model params (except Ceff which is user-controlled) ---
