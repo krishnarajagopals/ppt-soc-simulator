@@ -11,7 +11,7 @@ import {
 ////////////////////////////////////////////////////////////////////////////////
 // CHANGE THESE TWO LINES ONLY to point to your real links:
 const YOUTUBE_URL = "https://www.youtube.com/watch?v=iQu5MXEQQCo";       // <-- replace with your YouTube link
-const PDF_PATH    = "../public/PPT_Simulator_Equations.pdf";                   // <-- replace with your PDF file name in /public
+const PDF_PATH    =  import.meta.env.BASE_URL + "PPT_Simulator_Equations.pdf";                  // <-- replace with your PDF file name in /public
 ////////////////////////////////////////////////////////////////////////////////
 
 interface SimPoint {
