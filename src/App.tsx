@@ -33,12 +33,12 @@ function App() {
   const [vdd, setVdd] = useState(0.9);
 
   const [ambient, setAmbient] = useState(25);
-  const [thermalLimit, setThermalLimit] = useState(38);
+  const [thermalLimit, setThermalLimit] = useState(42);
   const [overheatGrace, setOverheatGrace] = useState(5);    // min 1 s enforced below
-  const [batteryWh, setBatteryWh] = useState(1.0);
-  const [workloadGI, setWorkloadGI] = useState(10000);
+  const [batteryWh, setBatteryWh] = useState(0.75);
+  const [workloadGI, setWorkloadGI] = useState(1000);
 
-  const [speed, setSpeed] = useState(20);
+  const [speed, setSpeed] = useState(75);
   const [playing, setPlaying] = useState(false);
 
   
